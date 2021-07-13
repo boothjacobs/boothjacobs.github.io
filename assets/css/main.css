@@ -1718,6 +1718,12 @@ input, select, textarea {
 
 /* Section/Article */
 
+#projects-main-entry {
+	border-top: 1px solid rgba(124, 128, 129, 0.2);
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
 	section.special, article.special {
 		text-align: center;
 	}
