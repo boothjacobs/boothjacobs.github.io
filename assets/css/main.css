@@ -1852,6 +1852,10 @@ input, select, textarea {
 
 /* Image */
 
+	.iamge-contain {
+		width: 200px;
+	}
+
 	.image {
 		border: 0;
 		position: relative;
@@ -1879,13 +1883,9 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
+			width: 100%;
 			margin: 0 0 2em 0;
 		}
-
-			.image.featured img {
-				display: block;
-				width: 100%;
-			}
 
 /* Icon */
 
@@ -2616,10 +2616,18 @@ input, select, textarea {
 			margin-bottom: 0;
 		}
 
+		#main .sidebar {
+			text-align: center;
+		}
+
+		#group-project-title {
+			margin-top: 30px;
+		}
+
 		#main .sidebar section {
-			border-top: solid 1px rgba(124, 128, 129, 0.2);
-			margin: 3em 0 0 0;
-			padding: 3em 0 0 0;
+			border: solid 1px rgba(124, 128, 129, 0.2);
+			margin: 2em 0 0 0;
+			padding: 1em;
 		}
 
 			#main .sidebar section:first-child {
