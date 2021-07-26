@@ -2528,14 +2528,9 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		/* background-color: #645862; */
 		background-image: url("../../images/sunrise.jpeg");
-		/* background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg"); */
 		background-position: center;
 		background-repeat: no-repeat;
-		/* background-position: bottom left, bottom right, top left, top center;
-		background-repeat: no-repeat, no-repeat, repeat, no-repeat; */
-		/* background-size: 25em, 25em, auto, cover; */
 		background-size: cover;
 		color: #fff;
 		cursor: default;
@@ -2625,14 +2620,18 @@ input, select, textarea {
 			padding: 1em;
 		}
 
-			#main .sidebar section:first-child {
+			/* #main .sidebar section:first-child {
 				border-top: 0;
 				padding-top: 0;
 				margin-top: 0;
-			}
+			} */
 
 	body.index #main {
 		padding-top: 5em;
+	}
+
+	.skills-page-div {
+		text-align: center;
 	}
 
 /* CTA */
@@ -2824,7 +2823,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				/* background-size: 15em, 15em, auto, cover; */
+				background-size: cover;
 			}
 
 		/* Main */
@@ -3279,7 +3279,8 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				/* background-size: 10em, 10em, auto, cover; */
+				background-size: cover;
 				padding: 6em 0;
 			}
 
