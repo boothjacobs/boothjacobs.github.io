@@ -76,6 +76,23 @@ input, select, textarea {
 	border: 4px solid black;
 }
 
+#history {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: .9em;
+}
+
+#backstory {
+	font-size: .9em;
+}
+
+#about.sidebar > section {
+	min-width: 300px;
+}
+
 /* Basic */
 
 	html {
@@ -740,7 +757,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1280px) {             /*  FIX SIDEBAR STARTING HERE  */
 
 			.row {
 				display: flex;
@@ -955,7 +972,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 60px 0 0 60px;
+						padding: 60px 0 0 30px;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1200,7 +1217,7 @@ input, select, textarea {
 				}
 
 					.row.gtr-150 > * {
-						padding: 45px 0 0 45px;
+						padding: 45px 0 0 0;
 					}
 
 					.row.gtr-150.gtr-uniform {
@@ -1882,8 +1899,9 @@ input, select, textarea {
 
 		.image.featured {
 			display: block;
-			width: 100%;
-			margin: 0 0 2em 0;
+			width: 75%;
+			/* margin: 0 0 2em 0; */
+			margin: auto;
 		}
 
 /* Icon */
