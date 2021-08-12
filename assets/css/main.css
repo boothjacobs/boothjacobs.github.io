@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+#headshot {
+	border: 4px solid black;
+}
+
 /* Basic */
 
 	html {
